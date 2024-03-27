@@ -14,7 +14,7 @@ humantime: "8:30AM - 4:00PM EST"    # human-readable times for the workshop e.g.
 startdate: 2024-04-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-04-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Marina Lehmkuhl", "Ayush Saxena"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Huan Jin", "Mohammed Hussain","Ammar Tareen","Ayush Saxena","Zebulun Arendsee","Emily Lo"] 
+helper: ["Huan Jin", "Mohammed Hussain","Ammar Tareen","Zebulun Arendsee","Emily Lo","Norman Zhang"] 
 email: ["sheldon.mckay@regeneron.com"]  
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -42,26 +42,6 @@ Check SWC curriculum
 It looks like you are setting up a website for a Software Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>swc-inflammation</code>, or <code>swc-gapminder</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
 </div>
 {% endunless %}
-{% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
 {% endif %}
 
 
