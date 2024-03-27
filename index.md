@@ -337,8 +337,6 @@ change the value of `carpentry` to `incubator`.
 
 <h2 id="schedule">Schedule</h2>
 
-<h2 id="schedule">Schedule</h2>
-
 <table class="table table-striped"> 
    <tr> 
      <td>08:30</td>
@@ -351,7 +349,7 @@ change the value of `carpentry` to `incubator`.
   </tr>
   <tr> 
     <td>09:00</td>
-    <td>Python Part 1 - Sheldon McKay</td>
+    <td>R Part 1 - Marina Lehmkuhl</td>
   </tr>
   <tr>
     <td>12:00</td>
@@ -359,7 +357,7 @@ change the value of `carpentry` to `incubator`.
   </tr>
   <tr>
     <td>13:00</td>
-    <td>Python Part 2 - Haizi Zheng</td>
+    <td>R Part 2 - Ayush Saxena</td>
   </tr>
   <tr> 
     <td>15:45</td>  
