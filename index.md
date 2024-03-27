@@ -317,7 +317,7 @@ change the value of `carpentry` to `incubator`.
 
 <h2 id="schedule">Schedule</h2>
 
-<table class="table table-striped"> 
+<table class="table table-striped" style="border:1px solid black"> 
    <tr> 
      <td>08:30</td>
      <td>
